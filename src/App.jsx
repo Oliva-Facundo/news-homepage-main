@@ -11,9 +11,9 @@ function App() {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet="/image-web-3-desktop.jpg"
+                srcSet="./image-web-3-desktop.jpg"
               />
-              <img src="/image-web-3-mobile.jpg" alt="Web" />
+              <img src="./image-web-3-mobile.jpg" alt="Web" />
             </picture>
             <div className="flex justify-between pt-8 max-md:flex-col max-md:mb-14">
               <h1 className="text-6xl font-extrabold w-2/5 max-md:w-full max-md:text-5xl max-md:mb-6">
@@ -69,7 +69,7 @@ function App() {
         <section className="grid grid-cols-3 w-full mt-12 max-md:flex max-md:flex-col max-md:gap-7 max-md:mb-14">
           <div className="flex">
             <img
-              src="/image-retro-pcs.jpg"
+              src="./image-retro-pcs.jpg"
               alt="retro pcs"
               className=" w-[5.5rem]"
             />
@@ -85,7 +85,7 @@ function App() {
           </div>
           <div className="flex">
             <img
-              src="/image-top-laptops.jpg"
+              src="./image-top-laptops.jpg"
               alt="retro pcs"
               className=" w-[5.5rem]"
             />
@@ -101,7 +101,7 @@ function App() {
           </div>
           <div className="flex">
             <img
-              src="/image-gaming-growth.jpg"
+              src="./image-gaming-growth.jpg"
               alt="retro pcs"
               className=" w-[5.5rem]"
             />

@@ -11,7 +11,7 @@ const Header = () => {
     <header className="w-full flex items-center justify-between pb-10">
       <img src="logo.svg" alt="logo" />
       <button onClick={navbarMovile} className="md:hidden">
-        <img src="src/images/icon-menu.svg" alt="abrir" />
+        <img src="/icon-menu.svg" alt="abrir" />
       </button>
       <nav
         className={`flex bg-white max-md:absolute max-md:top-0 max-md:right-0 max-md:bottom-0 max-md:bg-white max-md:w-4/6 max-md:flex-col max-md:p-8 
@@ -25,7 +25,7 @@ const Header = () => {
           onClick={navbarMovile}
           className="md:hidden absolute top-0 right-0 p-6 "
         >
-          <img src="icon-menu-close.svg" alt="cerrar" />
+          <img src="/icon-menu-close.svg" alt="cerrar" />
         </button>
         <ul className="flex gap-10 max-md:flex-col max-md:items-start max-md:justify-center max-md:gap-8 max-md:mt-24">
           <li className="w-full">
